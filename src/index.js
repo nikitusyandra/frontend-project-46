@@ -1,5 +1,5 @@
 import _ from 'lodash';
-import { readFileSync } from 'node:fs';
+import fs from 'fs';
 import path from 'node:path';
 
 const resolvePath = (filePath) => (filePath.includes('__fixtures__')
@@ -10,8 +10,8 @@ function gendiff(filePath1, filePath2) {
   const path1 = resolvePath(filePath1);
   const path2 = resolvePath(filePath2);
 
-  const file1 = readFileSync(path1, 'utf-8');
-  const file2 = readFileSync(path2, 'utf-8');
+  const file1 = fs.readFileSync(path1, 'utf-8');
+  const file2 = fs.readFileSync(path2, 'utf-8');
 
   const data1 = JSON.parse(file1);
   const data2 = JSON.parse(file2);
