@@ -42,3 +42,8 @@ gendiff file1.yml file2.yml
 ```
 ![Снимок экрана от 2023-09-20 14-52-08](https://github.com/nikitusyandra/frontend-project-46/assets/120372224/e6b57d85-8139-46ee-9fff-ff9b4708c552)
 
+```
+gendiff --format plain file1.json file2.json
+```
+![Снимок экрана от 2023-10-09 14-25-40](https://github.com/nikitusyandra/frontend-project-46/assets/120372224/e69e86df-c89a-4c0d-9885-3a234acd2b9a)
+
