@@ -1,5 +1,5 @@
 const result = `{
-   common: {
+    common: {
       + follow: false
         setting1: Value 1
       - setting2: 200
