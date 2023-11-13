@@ -1,8 +1,14 @@
+install:
+	npm ci
+
 publish:
 	npm publish --dry-run
 
-gendiff:
-	node bin/gendiff.js
+gendiff: 
+	bin/gendiff.js
+
+run:
+	node bin/gendiff file1.json file2.json
 
 lint:
 	npx eslint .
@@ -10,8 +16,8 @@ lint:
 lint-fix:
 	npx eslint . --fix
 
-test:
-	npm test
-
 test-coverage:
 	npx jest --coverage
+
+test:
+	npm test
