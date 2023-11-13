@@ -1,10 +1,10 @@
 import makePlain from './plain.js';
-import makeStylish from './stylish.js';
+import makeStylishDiff from './stylish.js';
 
 export default function formatter(tree, format) {
   switch (format) {
     case 'stylish':
-      return makeStylish(tree);
+      return makeStylishDiff(tree);
     case 'plain':
       return makePlain(tree);
     case 'json':
