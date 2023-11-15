@@ -5,7 +5,7 @@
 **Generator of difference** is the CLI program that generate difference between two files. Supporting formats: JSON, YML, YAML.
 ## Install
 ```
-git clone https://github.com/m1chendi/frontend-project-46.git
+git clone https://github.com/nikitusyandra/frontend-project-46.git
 cd frontend-project-46
 make install
 ```
